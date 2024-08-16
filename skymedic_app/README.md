@@ -1,54 +1,36 @@
-<h1>SkyMedicAI - Prueba Técnica en Next.js 14</h1>
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<p>Este repositorio contiene una prueba técnica desarrollada con <strong>Next.js 14</strong>, utilizando <strong>TypeScript</strong>, <strong>Tailwind CSS</strong>, y <strong>ShadCN</strong>.</p>
+## Getting Started
 
-<h2>Instrucciones de Configuración</h2>
+First, run the development server:
 
-<h3>1. Crear el Proyecto</h3>
-<p>Para comenzar, clona este repositorio o crea un nuevo proyecto utilizando <code>create-next-app</code> con las siguientes configuraciones:</p>
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-<pre>
-<code>npx create-next-app@latest skymedic_app --typescript --tailwind --eslint</code>
-</pre>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-<h3>2. Instalación de ShadCN</h3>
-<p>ShadCN es una biblioteca de componentes para React, que facilita la creación de UI. Para instalarla, ejecuta:</p>
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-<pre>
-<code>npx shadcn-ui@latest init</code>
-</pre>
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-<h3>3. Despliegue del Proyecto en Modo Desarrollo</h3>
-<p>Para iniciar el servidor de desarrollo y visualizar el proyecto localmente, utiliza:</p>
+## Learn More
 
-<pre>
-<code>npm run dev</code>
-</pre>
+To learn more about Next.js, take a look at the following resources:
 
-<p>Visita <a href="http://localhost:3000" target="_blank">http://localhost:3000</a> en tu navegador para ver la aplicación en acción.</p>
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-<h3>4. Despliegue del Proyecto en Modo Producción</h3>
-<p>Para compilar y ejecutar el proyecto en modo producción:</p>
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-<pre>
-<code>npm run build<br>npm start</code>
-</pre>
+## Deploy on Vercel
 
-<p>Este comando construirá los archivos optimizados para producción y lanzará un servidor en <code>http://localhost:3000</code>.</p>
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<h2>Docker</h2>
-
-<h3>Despliegue con Docker</h3>
-<p>Como un extra no solicitado, se ha creado un <code>Dockerfile</code> para facilitar el despliegue de la aplicación. Esto permite ejecutar la aplicación en un contenedor, asegurando un entorno de producción consistente y fácil de manejar.</p>
-
-<p>Para construir y ejecutar la imagen Docker:</p>
-
-<pre>
-<code>docker build -t skymedic_app .<br>docker run -p 80:80 skymedic_app</code>
-</pre>
-
-<p>Esto servirá tu aplicación en el puerto 80 de tu máquina local.</p>
-
-<hr>
-
-<p>Espero que esta documentación sea útil y cumpla con tus expectativas. ¡Gracias por la oportunidad de trabajar en esta prueba técnica!</p>
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
